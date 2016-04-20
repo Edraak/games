@@ -35,6 +35,7 @@ $(document).ready(function(){
 	var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 	var isMobile = false; //initiate as false
 	var bg_sound = null;
+	var is_mute = false;
 
 
 
@@ -294,7 +295,9 @@ $(document).ready(function(){
 			gameMover = setInterval(gameRun, config.intervalSpeed);
 			gamePaused = false;
 			$(".pauseScreen").hide();
-			loopSound(bg_sound);
+			if(!is_mute){
+				loopSound(bg_sound);
+			}
 		}else{
 			$(".pauseScreen").show();
 			clearInterval(gameMover); 
@@ -312,15 +315,18 @@ $(document).ready(function(){
 				bg_sound.stop();
 			}else{
 				soundManager.setVolume(0);
-			}			
+			}
+			is_mute = true;			
 		}else{
 			$(".sound-icon").addClass("fa-volume-up");
 			$(".sound-icon").removeClass("fa-volume-off");
 			if(iOS){
 				loopSound(bg_sound);
 			}else{
+				loopSound(bg_sound);
 				soundManager.setVolume(100);
 			}
+			is_mute = false;
 		}
 		
 	}

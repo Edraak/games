@@ -1,0 +1,32 @@
+{
+  "name": "jquery-final-countdown",
+  "version": "1.1.1",
+  "homepage": "https://github.com/PragmaticMates/jquery-final-countdowns",
+  "authors": [
+    "Pragmatic Mates"
+  ],
+  "description": "Final Countdown is a cool jQuery timer plugin used to countdown in seconds, minutes, hours and days to any date time, with a ring-style countdown indicator. Ideal for creating a modern coming soon & in construction page for your upcoming project.",
+  "keywords": [
+    "canvas",
+    "animations",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "demo",
+    ".gitignore",
+    "jquery.final-countdown.js"
+  ],
+  "main": "jquery.final-countdown.min.js",
+  "_cacheHeaders": {
+    "ETag": "\"15c165-51b0937e58e80-gzip\"",
+    "Last-Modified": "Fri, 17 Jul 2015 02:48:10 GMT",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:15c165-51",
+  "_source": "http://www.jqueryscript.net/download/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown.zip",
+  "_target": "*",
+  "_originalSource": "http://www.jqueryscript.net/download/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown.zip",
+  "_direct": true
+}

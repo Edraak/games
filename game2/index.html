@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>كثيرات الحدود</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="author" content="Shaqdeeh">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="bower_components/preloadjs-0.6.2.min/index.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+  <script src="bower_components/jquery.ui.touch-punch.min/index.js"></script>
+  <script src="bower_components/KineticJS/kinetic.js"></script>
+  <script src="bower_components/SoundManager2/script/soundmanager2.js"></script> 
+  <script src="bower_components/countdown360/dist/jquery.countdown360.js"></script>
+    <script type="text/javascript">
+
+	
+</script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="light">
+  <script src="js/scripts.js"></script>
+ 	<div class="isMobile">
+ 		<a href="https://edraak.github.io/games/game1/index.html" target="_blank" id = "openNewWindow" class="round-btn">
+  		افتح اللعبة
+  	</a>
+ 	</div>
+  <div class="loading"></div>
+  <div class="stage">	  
+	  <div class="score c"><span class="myscore">15</span><a hfref="#" class="theme"><i class="fa  fa-paint-brush"></i></a></div>
+	  <a class="pause c"><i class="fa fa-pause"></i></a>
+	  <a class="sound c"><i class="fa fa-volume-up sound-icon"></i></a>
+
+	  <div class="playArea">
+	  	<div class="grid" id="grid">
+		<div class="explr" id="explr1"></div>        <div id="curve"></div>
+        <div id="hCircle" class="hCircle"><div class="hCircleIn"></div></div>  
+      </div>
+      <div class="controls">
+        <div class="rtl ">الازاحة بالاتجاه X:</div>
+        <div id="xAxis"></div>
+        <div class="rtl margin-top-5">الازاحة بالاتجاه Y:</div>
+        <div id="yAxis"></div>
+        <div class="rtl margin-top-5">الميل:</div>
+        <div id="slope"></div>
+
+        <h2 id="equation"></h2>
+        <h2 class="score">النتيجة: <span>0</span></h2>
+        <a href="#" class="next round-btn green-btn">التالي</a>
+        <a href="#" class="rescue round-btn red-btn">انقاذ</a>
+      </div>
+	  </div>
+
+  </div>
+  <!-- No Portrait Screen -->
+  <div class="noPortrait">
+    <div class="startTxt">
+    <i class="fa fa-tablet fa-4x"></i>
+      <h3 id="title">مجموعات الاعداد وخصائصها</h3>
+      <p>الرجاء جعل الجهاز بالوضعية الأفقية</p>
+    </div>
+  </div>
+  <!-- Start Screen -->
+  <div class="startScreen">
+  	<div class="startTxt">
+  		<h3 id="title">كثيرات الحدودو</h3>
+  		<p style="direction: rtl;">
+ أربعة مستكشفين ضلوا طريقهم في الغابة، وقرروا ان يتفرقوا خوفا من اكتشافهم من قبل عدو ما
+لكن لكي يسهلوا عملية انقاذهم من قبل فرق الانقاذ قرروا ان يختبئوا بشكل خط مستقيم، معادلة الخط المستقيم تظهر امامك وبالتحكم بلوحة المفاتيح تستطيع ان تجد مكان المستكشفين الاربعة، هناك ثلاثة مفاتيح للتحكم بقيم <span style="font-family: Arial">X</span> و <span style="font-family: Arial">Y</span> و الميل للخط الازرق</p>
+<a href="#" id = "startBtn" class="round-btn startBtn">
+      ابدأ اللعب
+    </a>
+  	</div>
+  	
+  	<div class="logo">
+  		<p>© جميع الحقوق محفوظة ٢٠١٦ إدراك</p>
+  		<img src="img/logo.png" width="100" height="auto"/>
+  	</div>
+  </div><!-- End Start Screen -->
+
+  <!-- Pause Screen -->
+  <div class="pauseScreen">  
+
+  <center>
+  <div class="time">  
+        <span class="hms"></span>
+        <span class="ampm"></span>
+        <br>
+        <span class="date"></span>
+    </div>
+  </center>	
+  	<a href="#" class="continue round-btn startBtn">
+  		استمر
+  	</a>
+  	<a href="#" class="red-btn endgame round-btn startBtn">
+	  		إعادة اللعب <i class="fa fa-repeat"></i>
+	  	</a>
+  	<div class="logo">
+  		<p>© جميع الحقوق محفوظة ٢٠١٦ إدراك</p>
+  		<img src="img/logo.png" width="100" height="auto"/>
+  	</div>
+  </div><!-- End Pause Screen -->
+
+  <!-- End Screen -->
+	<div class="endScreen">
+		<div class="results">		
+		النتيجة: <span id="result">0</span>
+		</div>	 
+	  	<a href="#" class="endgame round-btn">
+	  		إعادة اللعب <i class="fa fa-repeat"></i>
+	  	</a>
+	  	<div class="logo">
+	  		<p>© جميع الحقوق محفوظة ٢٠١٦ إدراك</p>
+	  		<img src="img/logo.png" width="100" height="auto"/>
+	  	</div>
+	  </div>
+
+</body>
+</html>
