@@ -296,7 +296,16 @@ body.light{
 	color: #fff;
 }
 .light .score{
-	color:#333;
+	height: 40px;
+    margin: 0;
+    width: 40%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    color: #333;
+    float: left;
+    padding: 0px 10px 5px 10px;
+    font-size: 14px;
+    line-height: 3;
 }
 a.pause{
 	display: block;
@@ -397,7 +406,7 @@ a.pause:hover, a.sound:hover{
 	text-align: center;
 	background-color: #f0f0f0;
 	padding: 3px;
-	margin-bottom: 10px;
+	margin: 15px 0 10px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	font-size: 14px;
@@ -532,9 +541,9 @@ a.pause:hover, a.sound:hover{
 
 
 .rescue, .next{
-	position: absolute;
+	float: right;
 	bottom: 10px;
-	width: calc(100% - 20px);
+	width: 40%;
 }
 
 .next{
@@ -590,6 +599,7 @@ a.pause:hover, a.sound:hover{
 	top: 0;
 	left: 0;
 	display: none;
+	overflow: auto;
 }
 #hwToPlay ul{
 	text-align: right;
