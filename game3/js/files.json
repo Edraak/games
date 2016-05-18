@@ -1,0 +1,70 @@
+{
+  "files": [{
+    "source": "bower_components/jquery-ui/jquery-ui.js",
+    "type": "SCRIPT",
+    "size": 471,
+    "stopExecution": true
+  }, {
+    "source": "bower_components/jquery.ui.touch-punch.min/index.js",
+    "type": "SCRIPT",
+    "size": 1,
+    "stopExecution": true
+  }, {
+    "source": "bower_components/KineticJS/kinetic.js",
+    "type": "SCRIPT",
+    "size": 515,
+    "stopExecution": true
+  }, {
+    "source": "bower_components/SoundManager2/script/soundmanager2.js",
+    "type": "SCRIPT",
+    "size": 164,
+    "stopExecution": true
+  }, {
+    "source": "bower_components/countdown360/dist/jquery.countdown360.js",
+    "type": "SCRIPT",
+    "size": 8,
+    "stopExecution": true
+  }, {
+    "source": "bower_components/MathJax/MathJax.js",
+    "type": "SCRIPT",
+    "size": 100,
+    "stopExecution": true
+  },{
+    "source": "img/logo.png",
+    "type": "IMAGE",
+    "size": 3
+  }, {
+    "source": "img/loader.gif",
+    "type": "IMAGE",
+    "size": 21
+  }, {
+    "source": "bower_components/font-awesome/fonts/fontawesome-webfont.svg",
+    "type": "IMAGE",
+    "size": 366
+  }, {
+    "source": "bower_components/font-awesome/css/font-awesome.css",
+    "type": "CSS",
+    "size": 33
+  }, {
+    "source": "css/styles.css",
+    "type": "CSS",
+    "size": 33
+  }, {
+    "type": "AUDIO",
+    "sources": {
+      "mp3": {
+        "source": "sounds/drag.mp3",
+        "size": 8
+      }
+    }
+  }, {
+    "type": "AUDIO",
+    "sources": {
+      "mp3": {
+        "source": "sounds/drop.mp3",
+        "size": 18
+      }
+    }
+  }]
+
+}

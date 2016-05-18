@@ -1,0 +1,15 @@
+{
+  "name": "preloadjs-0.6.2.min",
+  "_cacheHeaders": {
+    "ETag": "\"48870e9-dbb1-5264776ba2f00\"",
+    "Last-Modified": "Mon, 07 Dec 2015 04:41:00 GMT",
+    "Content-Length": "14203",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:48870e9-d",
+  "main": "index.js",
+  "_source": "https://code.createjs.com/preloadjs-0.6.2.min.js",
+  "_target": "*",
+  "_originalSource": "https://code.createjs.com/preloadjs-0.6.2.min.js",
+  "_direct": true
+}
