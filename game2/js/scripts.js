@@ -136,6 +136,7 @@ $(document).ready(function(){
 	});
 	$("#closeHwToPlay").on("click",function(){
 		$("#hwToPlay").hide();
+		startGame();
 	});
 
 	$(".rescue").on("click",function(){

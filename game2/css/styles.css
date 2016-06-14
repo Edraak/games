@@ -601,7 +601,10 @@ a.pause:hover, a.sound:hover{
 	display: none;
 	overflow: auto;
 }
-#hwToPlay ul{
+#hwToPlay p{
+	padding: 20px;
+}
+#hwToPlay p *, #hwToPlay p, #hwToPlay ol{
 	text-align: right;
 	}
 .green{
