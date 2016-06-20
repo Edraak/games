@@ -370,6 +370,7 @@ $(document).ready(function(){
 			$(".noPortrait").hide();
 		}
 	}
+	checkPortrait();
 
 }
 });

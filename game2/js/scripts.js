@@ -133,10 +133,26 @@ $(document).ready(function(){
 
 	$("#howToPlay").on("click",function(){
 		$("#hwToPlay").show();
+		$("#closeHwToPlay2").hide();
+		$("#closeHwToPlay").show();
+		return false;
 	});
 	$("#closeHwToPlay").on("click",function(){
 		$("#hwToPlay").hide();
 		startGame();
+		return false;
+	});
+	$("#closeHwToPlay2").on("click",function(){
+		$("#hwToPlay").hide();
+		$(this).hide();
+		$("#closeHwToPlay").show();
+		return false;
+	});
+	$(document).on("click","#helpBtn", function(){
+		$("#hwToPlay").show();
+		$("#closeHwToPlay").hide();
+		$("#closeHwToPlay2").show();
+		return false;
 	});
 
 	$(".rescue").on("click",function(){
@@ -249,6 +265,7 @@ $(document).ready(function(){
 		$(".grid").empty();
 		$(".grid").append('<div id="curve"></div>');
 		$(".grid").append('<div id="hCircle" class="hCircle"><div class="hCircleIn"></div></div>');
+		$(".grid").append('<a id="helpBtn" href="#"><i class="fa fa-question-circle fa-2"></i></a>');
 		var _W = $(".playArea").width();
 		var _H = $(".playArea").height();
 		//alert(_H);
@@ -778,6 +795,14 @@ $(document).ready(function(){
 		startGame();
 		return false;
 	});
+
+	$("#help").on("click", function(){
+
+		$("#closeHwToPlay2").hide();
+		$("#closeHwToPlay").show();
+		return false;
+	});
+
 	$(".theme").on("click", function(){
 		if($("body").hasClass('light')){
 			$("body").removeClass("light");

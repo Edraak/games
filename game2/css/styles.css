@@ -611,3 +611,18 @@ a.pause:hover, a.sound:hover{
 	color:#1ca3a6;
 }
 
+#helpBtn{
+	position: absolute;
+	z-index: 20;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	color: #333;
+	left: 10px;
+	top: 10px;
+	opacity: 0.6;
+}
+#helpBtn i {
+	float: left;
+}
