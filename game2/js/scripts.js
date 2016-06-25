@@ -265,7 +265,7 @@ $(document).ready(function(){
 		$(".grid").empty();
 		$(".grid").append('<div id="curve"></div>');
 		$(".grid").append('<div id="hCircle" class="hCircle"><div class="hCircleIn"></div></div>');
-		$(".grid").append('<a id="helpBtn" href="#"><i class="fa fa-question-circle fa-2"></i></a>');
+		$(".grid").append('<a id="helpBtn" href="#" title="كيفية اللعب"><i class="fa fa-question-circle fa-2"></i></a>');
 		var _W = $(".playArea").width();
 		var _H = $(".playArea").height();
 		//alert(_H);

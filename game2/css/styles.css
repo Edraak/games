@@ -88,6 +88,7 @@ body.light{
 	text-align:center;
 	display: none;
 }
+
 .startScreen p{
 	font-size: 12px;
 }
@@ -140,11 +141,17 @@ body.light{
 .round-btn:hover{
 	background: #188e90;
 }
-.startBtn, #openNewWindow{
+.startBtn{
 
 	margin:10px auto;
 }
-
+#openNewWindow{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-left: -85px;
+	margin-top: 0px;
+}
 .continue{
 	position: absolute;
 	left:50%;
