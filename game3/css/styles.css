@@ -484,6 +484,13 @@ a.sound:hover{
 
 }
 
+@media only screen and (max-height: 550px) and (min-height: 400px){
+	.million-box {
+	    margin:10px 40px;
+	}
+
+}
+
 .disableLink {
    pointer-events: none;
    cursor: default;
