@@ -19,7 +19,7 @@ $(document).ready(function(){
 	 $(".loading").fadeOut("fast");
 	 
 	var config = {
-		time: 30
+		time: 40
 	}
 	var selectedAnswer = 0;
 	var gameMover = null;
@@ -54,7 +54,7 @@ $(document).ready(function(){
 		["q5","الشكل التالي","img/q5.png",["محو ر تماثل افقي","محور تماثل عمودي","حول نقطة بداخله","لايوجد للشكل محورتماثل"],3,"السادس",[0,2]],
 		["q6","عدد محاور   التماثل في  الشكل","img/q6.png",["<span class='eng'>4</span>","<span class='eng'>2</span>","<span class='eng'>3</span>","<span class='eng'>∞</span>"],3,"السادس",[1,2]],
 		["q7","ما قياس متتمة الزاوية التالية:","img/q7.png",["<span class='eng'>25<sup>o</sup></span>","<span class='eng'>135<sup>o</sup></span>","<span class='eng'>65<sup>o</sup></span>","<span class='eng'>165<sup>o</sup></span>"],0,"الثالث",[1,2]],
-		["q8","من الشكل التالي","img/q8.png",["<span class='eng'>∠4 = ∠2</span>","<span class='eng'>∠3 = ∠5</span>","<span class='eng'>∠8 + ∠1 = 180<sup>o</sup></span>","كل ما ذكر"],3,"الثالث",[0,1]],
+		["q8","من الشكل التالي","img/q8.png",["الزاوية <span class='eng'>4 =</span> الزاوية <span class='eng'>2</span>","الزاوية <span class='eng'>3 =</span> الزاوية <span class='eng'>5</span>","الزاوية <span class='eng'>1 +</span> الزاوية <span class='eng'>8</span> <span class='eng'>= 180<sup>o</sup></span>","كل ما ذكر"],3,"الثالث",[0,1]],
 		["q9","دائرة نصف قطرها   <span class='eng'>2</span> فإن","",["محيطها يساوي <span class='eng'>4π</span>","مساحتها <span class='eng'>4π</span>","قطرها <span class='eng'>4</span>","كل ما ذكر"],3,"الخامس",[0,2]],
 		["q10","قطر الدائرة     <span class='eng'>8</span> سم  مساحتها تساوي :","",["<span class='eng'>5.242</span> سم<sup>2</sup> ","<span class='eng'>50.27</span> سم<sup>2</sup>","<span class='eng'>3.14</span> سم<sup>2</sup>","<span class='eng'>50.24</span> سم<sup>2</sup>"],1,"الخامس",[0,3]],
 		["q11","هو وتر وليس قطر","img/q11.png",["<span class='eng ol'>DE</span>","<span class='eng ol'>DB</span>","<span class='eng ol'>BG</span>","<span class='eng ol'>AC</span>"],0,"الرابع",[2,3]],
