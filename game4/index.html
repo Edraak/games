@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>النسب والاقترانات المثلثية - قهر المستحيل</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="author" content="Shaqdeeh">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <script src="bower_components/preloadjs-0.6.2.min/index.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/jquery.ui.touch-punch.min/index.js"></script>
+  <script src="bower_components/SoundManager2/script/soundmanager2.js"></script> 
+  <script src="bower_components/countdown360/dist/jquery.countdown360.js"></script>
+    <script type="text/javascript">
+
+	
+</script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="">
+  <script src="js/scripts.js"></script>
+ 	<div class="isMobile">
+ 		<a href="https://edraak.github.io/games/game4/index.html" target="_blank" id = "openNewWindow" class="round-btn">
+  		افتح اللعبة
+  	</a>
+ 	</div>
+  <div class="loading"></div>
+  <div class="stage">	  
+	  <!--<div class="score"><span class="myscore">15</span><a hfref="#" class="theme"><i class="fa  fa-paint-brush"></i></a></div>-->
+	  <a class="sound"><i class="fa fa-volume-up sound-icon"></i></a>    
+	  <div class="playArea">
+	  	<div class="grid">
+          <div class="header">
+            <div class="col"><div class="row">نظرية فيتاغورس</div></div>
+            <div class="col"><div class="row">النسب المثلثية</div></div>
+            <div class="col"><div class="row">الدوال المثلثية</div></div>
+            <div class="col"><div class="row">مساحة المثلث</div></div>
+          </div>
+          <div class="body">
+            <div class="col">
+                <a href="#" class="row solve" id="q1"><span>100</span></a>
+                <a href="#" class="row solve" id="q5"><span>200</span></a>
+                <a href="#" class="row solve" id="q9"><span>300</span></a>
+                <a href="#" class="row solve" id="q13"><span>400</span></a>
+            </div>
+            <div class="col">
+                <a href="#" class="row solve" id="q2"><span>100</span></a>
+                <a href="#" class="row solve" id="q6"><span>200</span></a>
+                <a href="#" class="row solve" id="q10"><span>300</span></a>
+                <a href="#" class="row solve" id="q14"><span>400</span></a>
+            </div>
+            <div class="col">
+                <a href="#" class="row solve" id="q3"><span>100</span></a>
+                <a href="#" class="row solve" id="q7"><span>200</span></a>
+                <a href="#" class="row solve" id="q11"><span>300</span></a>
+                <a href="#" class="row solve" id="q15"><span>400</span></a>
+            </div>
+            <div class="col">
+                <a href="#" class="row solve" id="q4"><span>100</span></a>
+                <a href="#" class="row solve" id="q8"><span>200</span></a>
+                <a href="#" class="row solve" id="q12"><span>300</span></a>
+                <a href="#" class="row solve" id="q16"><span>400</span></a>
+            </div>
+          </div>
+      </div>        
+
+      <div id="qArea" class="scroll">
+          <div class="finalAnswerArea"><a id="finalAnswer" class="round-btn" href="#">هل أنت متأكد من الإجابة؟</a></div>
+          <div class="qTxt"></div>
+          <div class="qImg"></div>
+      </div>
+      
+      <div id="ansArea">
+                <a href="#" id="ans1" code="0" class="ans">
+                 <span class="txt">اجابة</span>
+                </a>
+          <a href="#" id="ans2" code="1" class="ans">
+          <span class="txt">اجابة</span>
+          </a>
+          <a href="#" id="ans3" code="2" class="ans">
+          <span class="txt">اجابة</span>
+          </a>
+          <a href="#" id="ans4" code="3" class="ans">
+          <span class="txt">اجابة</span>
+          </a>
+       
+      </div>   
+
+	  </div>
+
+  </div>
+   <!-- No Portrait Screen -->
+  <div class="noPortrait">
+    <div class="startTxt">
+    <i class="fa fa-tablet fa-4x"></i>
+      <h3 id="title">مجموعات الاعداد وخصائصها</h3>
+      <p>الرجاء جعل الجهاز بالوضعية الأفقية</p>
+    </div>
+  </div>
+  <!-- Start Screen -->
+  <div class="startScreen">
+  	<div class="startTxt">
+    <p></p>
+  		<h3 id="title">النسب والاقترانات المثلثية - قهر المستحيل</h3>
+  	</div>
+  	<a href="#" id = "startBtn" class="round-btn startBtn">
+  		ابدأ اللعب
+  	</a>
+  	<div class="logo">
+  		<p>© جميع الحقوق محفوظة ٢٠١٦ إدراك</p>
+  		<img src="img/logo.png" width="100" height="auto"/>
+  	</div>
+  </div><!-- End Start Screen -->
+
+  <!-- End Screen -->
+	<div class="endScreen">
+		<div class="results">		
+		النتيجة: <span id="result"></span>
+		</div>	 
+	  	<a href="#" class="endgame round-btn startBtn">
+	  		إعادة اللعب <i class="fa fa-repeat"></i>
+	  	</a>
+	  	<div class="logo">
+	  		<p>© جميع الحقوق محفوظة ٢٠١٦ إدراك</p>
+	  		<img src="img/logo.png" width="100" height="auto"/>
+	  	</div>
+	  </div>
+
+</body>
+</html>
