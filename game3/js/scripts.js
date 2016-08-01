@@ -274,7 +274,9 @@ $(document).ready(function(){
 		  autostart: false,
 		  label: "",
 		  onComplete  : function () {
-		  	wrongSound.play();
+		  	if(!iOS && !is_mute){
+		  		wrongSound.play();
+		  	}
 		  	endGame();		  	
 		  }
 		});
@@ -286,8 +288,10 @@ $(document).ready(function(){
 		counter.pause();
 		$(".ans").removeClass("selected");
 		//$(".ans").removeClass("disableLink");
-		if(selectedAnswer == _qs[qCounter][4])	{			
-	    	rightSound.play();
+		if(selectedAnswer == _qs[qCounter][4])	{	
+			if(!iOS && !is_mute){		
+	    		rightSound.play();
+	    	}
 	    	$("#"+_selecId).addClass("correct");
 	    	score++;	    	
 		   // }
@@ -300,7 +304,9 @@ $(document).ready(function(){
 	    	}
 	    		, 1500);
 	    }else{
-	    	wrongSound.play();
+	    	if(!iOS && !is_mute){	
+	    		wrongSound.play();
+	    	}
 	    	//alert();
 	    	$("#"+_selecId).addClass("wrong");
 	    	$("#ans"+(_qs[qCounter][4]+1)).addClass("correct");
