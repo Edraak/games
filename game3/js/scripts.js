@@ -53,7 +53,7 @@ $(document).ready(function(){
 		["q4","عدد الخطوط المتوازية في المستوى","",["لا يوجد","<span class='eng'>2</span>","<span class='eng'>∞</span>","<span class='eng'>100</span>"],2,"الثالث",[0,3]],
 		["q5","الشكل التالي","img/q5.png",["محو ر تماثل افقي","محور تماثل عمودي","حول نقطة بداخله","لايوجد للشكل محورتماثل"],3,"السادس",[0,2]],
 		["q6","عدد محاور   التماثل في  الشكل","img/q6.png",["<span class='eng'>4</span>","<span class='eng'>2</span>","<span class='eng'>3</span>","<span class='eng'>∞</span>"],3,"السادس",[1,2]],
-		["q7","ما قياس متتمة الزاوية التالية:","img/q7.png",["<span class='eng'>25<sup>o</sup></span>","<span class='eng'>135<sup>o</sup></span>","<span class='eng'>65<sup>o</sup></span>","<span class='eng'>165<sup>o</sup></span>"],0,"الثالث",[1,2]],
+		["q7","ما قياس مكملة الزاوية التالية؟","img/q7.png",["<span class='eng'>25<sup>o</sup></span>","<span class='eng'>135<sup>o</sup></span>","<span class='eng'>65<sup>o</sup></span>","<span class='eng'>165<sup>o</sup></span>"],0,"الثالث",[1,2]],
 		["q8","من الشكل التالي","img/q8.png",["الزاوية <span class='eng'>4 =</span> الزاوية <span class='eng'>2</span>","الزاوية <span class='eng'>3 =</span> الزاوية <span class='eng'>5</span>","الزاوية <span class='eng'>1 +</span> الزاوية <span class='eng'>8</span> <span class='eng'>= 180<sup>o</sup></span>","كل ما ذكر"],3,"الثالث",[0,1]],
 		["q9","دائرة نصف قطرها   <span class='eng'>2</span> فإن","",["محيطها يساوي <span class='eng'>4π</span>","مساحتها <span class='eng'>4π</span>","قطرها <span class='eng'>4</span>","كل ما ذكر"],3,"الخامس",[0,2]],
 		["q10","قطر الدائرة     <span class='eng'>8</span> سم  مساحتها تساوي :","",["<span class='eng'>5.242</span> سم<sup>2</sup> ","<span class='eng'>50.27</span> سم<sup>2</sup>","<span class='eng'>3.14</span> سم<sup>2</sup>","<span class='eng'>50.24</span> سم<sup>2</sup>"],1,"الخامس",[0,3]],
@@ -61,7 +61,7 @@ $(document).ready(function(){
 		["q12","واحد من الاشكال التالية لا يحقق خاصية كل زاويتين متتاليتين    مجموعهما <span class='eng'>180<sup>o</sup></span>","",["المعين","المربع","المستطيل","شبه المنحرف"],3,"الرابع",[0,1]],
 		["q13","اذا كان لدينا مضلع منتظم يتكون من <span class='eng'>11</span> ضلعا فإن مجموع قياسات المثلث الداخلية","",["<span class='eng'>180<sup>o</sup> x 9 = 1620<sup>o</sup></span>","<span class='eng'>720</span>","<span class='eng'>549</span>","لاشيء مما ذكر"],0,"الرابع",[1,2]],
 		["q14","قيمة <span class='eng'>Y</span>","img/q14.png",["<span class='eng'>18</span>","<span class='eng'>36</span>","<span class='eng'>72</span>","<span class='eng'>144</span>"],2,"الثاني",[0,1]],
-		["q15","محيط المستطيل <span class='eng'>abcd = 20</span> سم ومساحة الدائرة التي قطرها <span class='eng'>cd</span> تساوي <span class='eng'>4π</span> سم<sup>2</sup><span class='eng'>4π</span>، ما محيط المنطقة غير المظللة؟","img/q15.png",["<span class='eng'>4π - 20</span>","<span class='eng'>4π + 16</span>","<span class='eng'>2π</span>","<span class='eng'>2π + 20</span>"],3,"الخامس",[0,2]]
+		["q15","محيط المستطيل <span class='eng'>abcd = 24</span> سم ومساحة الدائرة التي قطرها <span class='eng'>cd</span> تساوي <span class='eng'>4π</span> سم<sup>2</sup><span class='eng'>4π</span>، ما محيط المنطقة غير المظللة؟","img/q15.png",["<span class='eng'>4π - 20</span>","<span class='eng'>4π + 16</span>","<span class='eng'>2π</span>","<span class='eng'>2π + 20</span>"],3,"الخامس",[0,2]]
 	];
 
 	
