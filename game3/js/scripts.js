@@ -61,7 +61,7 @@ $(document).ready(function(){
 		["q12","واحد من الاشكال التالية لا يحقق خاصية كل زاويتين متتاليتين    مجموعهما <span class='eng'>180<sup>o</sup></span>","",["المعين","المربع","المستطيل","شبه المنحرف"],3,"الرابع",[0,1]],
 		["q13","اذا كان لدينا مضلع منتظم يتكون من <span class='eng'>11</span> ضلعا فإن مجموع قياسات المثلث الداخلية","",["<span class='eng'>180<sup>o</sup> x 9 = 1620<sup>o</sup></span>","<span class='eng'>720</span>","<span class='eng'>549</span>","لاشيء مما ذكر"],0,"الرابع",[1,2]],
 		["q14","قيمة <span class='eng'>Y</span>","img/q14.png",["<span class='eng'>18</span>","<span class='eng'>36</span>","<span class='eng'>72</span>","<span class='eng'>144</span>"],2,"الثاني",[0,1]],
-		["q15","محيط المستطيل <span class='eng'>abcd = 24</span> سم ومساحة الدائرة التي قطرها <span class='eng'>cd</span> تساوي <span class='eng'>4π</span> سم<sup>2</sup><span class='eng'>4π</span>، ما محيط المنطقة غير المظللة؟","img/q15.png",["<span class='eng'>4π - 20</span>","<span class='eng'>4π + 16</span>","<span class='eng'>2π</span>","<span class='eng'>2π + 20</span>"],3,"الخامس",[0,2]]
+		["q15","محيط المستطيل <span class='eng'>abcd</span> تساوي <span class='eng'>24</span>سم ومساحة الدائرة التي قطرها <span class='eng'>cd</span> تساوي <span class='eng'>4π</span>سم<sup>2</sup>، ما محيط المنطقة غير المظللة؟","img/q15.png",["<span class='eng'>4π - 20</span>","<span class='eng'>4π + 16</span>","<span class='eng'>2π</span>","<span class='eng'>2π + 20</span>"],3,"الخامس",[0,2]]
 	];
 
 	
