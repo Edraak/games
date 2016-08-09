@@ -55,7 +55,7 @@ $(document).ready(function(){
 		["q5",'التمثيل التالي  حيث x تمثل قيمة الزاوية y نمثل قيمة  الاقتران ( الدالة) هو:',"img/q2.png",["<span class='eng'>2sinx</span>","<span class='eng'>cosx</span>","<span class='eng'>sinx</span>","<span class='eng'>sinx + 1</span>"],2],
 		["q6",'اذا قطع ضلع انتهاء الزاوية   <span class="eng">x</span>  دائرة الوحدة في النقطة <img src="img/q6_s1.png"/><span class="eng">(x,y)</span> فإن الزاوية منفرجة:',"",["نعم","لا"],0],		
 		["q7",'اذاكانت <span class="eng">θ = 30<sup>o</sup></span> فإن <span class="eng">cos<sup>2</sup>θ + sin<sup>2</sup>θ = 1</span>',"",["نعم","لا"],0],
-		["q8",'من الرسمة بين قيمة <span class="eng">x</span> التي  يلتق عندها المنحنى <span class="eng">cosx</span> و منحنى <span class="eng">sinx</span>',"img/q14.png",["<span class='eng'>0.6</span>","<span class='eng'>0.8</span>","<span class='eng'>0.2</span>"],1],
+		["q8",'من الرسمة بين قيمة <span class="eng">x</span> التي  يلتق عندها المنحنى <span class="eng">cosx</span> و منحنى <span class="eng">sinx</span>',"img/q14.png",["<span class='eng'>0.6</span>","<span class='eng'>0.8</span>","<span class='eng'>0.2</span>","<span class='eng'>1.4</span>"],1],
         ["q9","<span class='eng'>sin 45<sup>o</sup>=</span>","img/q3.png",["<span class='eng'>2</span>","<span class='eng'>&radic;<span style='text-decoration: overline'>2</span></span>","<span class='eng'>1/&radic;<span style='text-decoration: overline'>2</span></span>","<span class='eng'>1/(1+&radic;<span style='text-decoration: overline'>2</span>)</span>"],2],
 		["q10"," أبحرت سفينة من شاطئ ما  بعرض البحر بزاوية <span class='eng'>40<sup>o</sup></span> بالاتجاه الشمالي الشرقي ، استمرت في الابحار حتى وصلت نقطة ما ، مسقطها العمودي يبعد  <span class='eng'>10</span> ميل بحري على يمين نقطة  بدء الابحار. ما هي المسافة <span class='eng'>d</span>   التي سارتها السفينة لاقرب منزلتين عشريتين ؟","img/q7.png",["<span class='eng'>13.05 nm</span>","<span class='eng'>14.66 nm</span>","<span class='eng'>10.25 nm</span>","<span class='eng'>11.17 nm</span>"],0],
 		["q11","ما قيمة <span class='eng'>x</span>","img/q11.png",["<span class='eng'>343.2 m</span>","<span class='eng'>502.9 m</span>","<span class='eng'>686.6 m</span>","<span class='eng'>556.7 m</span>"],2],
@@ -274,7 +274,7 @@ $(document).ready(function(){
 		}else{
 			$(".endScreen #result").html("0");
 		}*/
-		$(".endScreen #result").html(score);
+		$(".endScreen #result").html(score + "/1600");
 		$(".endScreen").show();
 		bg_sound.stop();
 	}
@@ -436,8 +436,8 @@ $(document).ready(function(){
 			counter.resetart();
 		},1500);
 
-		selectedScore = parseInt($(this).attr("score"));
-
+		//selectedScore = parseInt($(this).attr("score"));
+		selectedScore = 100;
 		buildItem($(this).attr("id"));
 		return false;
 	});
