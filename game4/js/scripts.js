@@ -33,7 +33,7 @@ $(document).ready(function(){
 	var wrongSound = null;
 	var rightSound = null;
 	var is_mute = false;
-
+	var selectedBox = null;
 
 
 	var shuffle = function (a) {
@@ -50,20 +50,20 @@ $(document).ready(function(){
 	var _qs = [
 		["q1",'طول القطعه المستقيمة <span class="eng">BC</span> لاقرب مزلتين عشريتين هي:',"img/q1.png",["<span class='eng'>5.88cm</span>","<span class='eng'>6.50cm</span>","<span class='eng'>7.25cm</span>","<span class='eng'>6.02cm</span>"],3],
 		["q2",'مساحة متوازي الاضلاع <span class="eng">ABCD</span> لاقرب منزلتين عشريتين',"img/q4.png",["<span class='eng'>138.56</span>","<span class='eng'>137.61</span>","<span class='eng'>142.36</span>","<span class='eng'>69.28</span>"],0],
-		["q3",'اذا كانت مساحة مثلث <span class="eng">DAB</span> هي <span class="eng"> ½ AD.AB.sinx</span> فإن مساحة متوازي الاضلاع <span class="eng">DABC</span> هي:',"img/q9.png",["<span class='eng'>DB.AB.sinx</span>","<span class='eng'>AD.AB.sinx</span>","<span class='eng'>AD.AB.cosx</span>","<span class='eng'>AD.BC.sinx</span>"],1],
+		["q3",'اذا كانت مساحة مثلث <span class="eng">DAB</span> هي <span class="eng"> AD.AB.sinx ½</span> فإن مساحة متوازي الاضلاع <span class="eng">DABC</span> هي:',"img/q9.png",["<span class='eng'>DB.AB.sinx</span>","<span class='eng'>AD.AB.sinx</span>","<span class='eng'>AD.AB.cosx</span>","<span class='eng'>AD.BC.sinx</span>"],1],
 		["q4",'تطلق محطة المذياع امواجها من برج ارتفاعه <span class="eng">30</span>م ، فتبدوا الامواج الصوتية هكذا، ما هو الاقتران الممثل لهذا المنحنى:',"img/q13.png",["<span class='eng'>1.5 sinx</span>","<span class='eng'>1.5 cosx</span>","<span class='eng'>1.5 sinx + 1</span>","<span class='eng'>sinx + 1.5</span>"],0],
 		["q5",'التمثيل التالي  حيث x تمثل قيمة الزاوية y نمثل قيمة  الاقتران ( الدالة) هو:',"img/q2.png",["<span class='eng'>2sinx</span>","<span class='eng'>cosx</span>","<span class='eng'>sinx</span>","<span class='eng'>sinx + 1</span>"],2],
-		["q6",'اذا قطع ضلع انتهاء الزاوية   <span class="eng">x</span>  دائرة الوحدة في النقطة <img src="img/q6_s1.png"/> فإن الزاوية منفرجة:',"",["نعم","لا"],0],		
+		["q6",'اذا قطع ضلع انتهاء الزاوية   <span class="eng">x</span>  دائرة الوحدة في النقطة <img src="img/q6_s1.png"/><span class="eng">(x,y)</span> فإن الزاوية منفرجة:',"",["نعم","لا"],0],		
 		["q7",'اذاكانت <span class="eng">θ = 30<sup>o</sup></span> فإن <span class="eng">cos<sup>2</sup>θ + sin<sup>2</sup>θ = 1</span>',"",["نعم","لا"],0],
 		["q8",'من الرسمة بين قيمة <span class="eng">x</span> التي  يلتق عندها المنحنى <span class="eng">cosx</span> و منحنى <span class="eng">sinx</span>',"img/q14.png",["<span class='eng'>0.6</span>","<span class='eng'>0.8</span>","<span class='eng'>0.2</span>"],1],
-        ["q9","<span class='eng'>sin 45<sup>o</sup>=</span>","img/q3.png",["<span class='eng'>2</span>","<span class='eng'>√2</span>","<span class='eng'>1/√2</span>","<span class='eng'>1/(1+√2)</span>"],2],
-		["q10"," أبحرت سفينة من شاطئ ما  بزاوية <span class='eng'>40<sup>o</sup></span> بالاتجاه الشمالي الشرقي ، استمرت في الابحار حتى وصلت نقطة ما ، مسقطها العمودي يبعد  <span class='eng'>10</span> ميل بحري على يمين نقطة  بدء الابحار. ما هي المسافة <span class='eng'>d</span>   التي سارتها السفينة لاقرب منزلتين عشريتين ؟","img/q7.png",["<span class='eng'>13.05 nm</span>","<span class='eng'>14.66 nm</span>","<span class='eng'>10.25 nm</span>","<span class='eng'>11.17 nm</span>"],0],
+        ["q9","<span class='eng'>sin 45<sup>o</sup>=</span>","img/q3.png",["<span class='eng'>2</span>","<span class='eng'>&radic;<span style='text-decoration: overline'>2</span></span>","<span class='eng'>1/&radic;<span style='text-decoration: overline'>2</span></span>","<span class='eng'>1/(1+&radic;<span style='text-decoration: overline'>2</span>)</span>"],2],
+		["q10"," أبحرت سفينة من شاطئ ما  بعرض البحر بزاوية <span class='eng'>40<sup>o</sup></span> بالاتجاه الشمالي الشرقي ، استمرت في الابحار حتى وصلت نقطة ما ، مسقطها العمودي يبعد  <span class='eng'>10</span> ميل بحري على يمين نقطة  بدء الابحار. ما هي المسافة <span class='eng'>d</span>   التي سارتها السفينة لاقرب منزلتين عشريتين ؟","img/q7.png",["<span class='eng'>13.05 nm</span>","<span class='eng'>14.66 nm</span>","<span class='eng'>10.25 nm</span>","<span class='eng'>11.17 nm</span>"],0],
 		["q11","ما قيمة <span class='eng'>x</span>","img/q11.png",["<span class='eng'>343.2 m</span>","<span class='eng'>502.9 m</span>","<span class='eng'>686.6 m</span>","<span class='eng'>556.7 m</span>"],2],
 		["q12","تقف طائرة هيلوكبتر على ارتفاع <span class='eng'>250</span>م فوق شارع سريع، رصدت احدى ادوات قياسها شاحنة تسيربسرعه عالية ،  بزاوية ميلها <span class='eng'>20</span> درجة، بعد <span class='eng'>25</span> ثانية كانت زاوية ميلانه <span class='eng'>65</span> درجة ؟ فما تقدير ك لسرعة الشاحنة؟ ( لاقرب كم/ الساعة)","img/q15.png",["<span class='eng'>15 m/s</span>","<span class='eng'>45 k/h</span>","<span class='eng'>108 k/h</span>","<span class='eng'>82 k/h</span>"],3],
 		["q13","هل ممكن ان تكون الثلاثية  (<span class='eng'>4,6,8</span>) أطوال اضلاع مثلث قائم الزاوية؟","",["نعم","لا"],1],
-		["q14","لاقرب واحد صحيح","img/q8.png",["<span class='eng'>11</span>","<span class='eng'>9.5</span>","<span class='eng'>9</span>","<span class='eng'>10</span>"],0],		
+		["q14"," لاقرب واحد صحيح ما طول الضلع القائم؟","img/q8.png",["<span class='eng'>11</span>","<span class='eng'>9.5</span>","<span class='eng'>9</span>","<span class='eng'>10</span>"],0],		
 		["q15","جد المجهول لاقرب منزلة عشرية:","img/q12.png",["<span class='eng'>14.1</span>","<span class='eng'>15.6</span>","<span class='eng'>14.7</span>","<span class='eng'>11.3</span>"],3],
-		["q16","رتب القطع ( العدد مع الحرف الذي سيحل مكانه ) لتبرهن نظرية فيتاغورس: هكذا مثلا: 10=k","img/q16.png",["<span class='eng'>[ 1=c , 2=a , 4=d , 3=b , 5=e ]</span>","<span class='eng'>[ 1=d , 2=a , 4=c , 3=e , 5=b ]</span>","<span class='eng'>[ 1=d , 2=a , 4=c , 3=b , 5=e ]</span>","<span class='eng'>[ 1=d , 2=e , 4=c , 3=b , 5=a ]</span>"],2]
+		["q16","رتب القطع ( العدد مع الحرف الذي سيحل مكانه ) لتبرهن نظرية فيتاغورس: هكذا مثلا: 1=d","img/q16.png",["<span class='eng'>[ 1=c , 2=a , 4=d , 3=b , 5=e ]</span>","<span class='eng'>[ 1=d , 2=a , 4=c , 3=e , 5=b ]</span>","<span class='eng'>[ 1=d , 2=a , 4=c , 3=b , 5=e ]</span>","<span class='eng'>[ 1=d , 2=e , 4=c , 3=b , 5=a ]</span>"],2]
 	];
 
 	
@@ -114,7 +114,7 @@ $(document).ready(function(){
 						  id: 'bg_sound',
 						  url: 'sounds/bg_music.mp3',
 						  loops:10000,
-						  autoLoad: true
+						  autoLoad: false
 						});
 				    },
 
@@ -126,12 +126,25 @@ $(document).ready(function(){
 
 		
 	buildCounter();
+	$("#backBtn").on("click", function(){
+			$("#counter").stop();
+	    	$("#counter").hide(); 	
+	    	//setTimeout(function(){
+	    		$("#qArea").fadeOut(500);
+						$(".grid").show();
+					$(".grid .row").each(function(n){
+						$(this).fadeIn((n * 50) + 50);
+					});
+	    	//}, 1500);
+	});
 	var startGame = function(){
 		checkPortrait();
+		$("#counter").hide();
 		$( ".startScreen" ).show();
 		$( ".startScreen" ).css("left",0);
 		$( ".startScreen" ).css("top",0);
 		$( ".endScreen" ).hide();
+		$( "#backBtn" ).hide();
 		$(".finalAnswerArea").hide();
 		$(".ans").removeClass("selected");
 		$(".ans").removeClass("correct");
@@ -151,12 +164,7 @@ $(document).ready(function(){
 		//_qs = shuffle(_qs);	
 
 		if($( ".startScreen" ).height() < $( ".startScreen" ).width()){		
-			$( ".startScreen" ).animate({
-			  top:-$(this).height()
-			}, 1000, "linear", function() {
-			  $( ".startScreen" ).remove();
-			 // counter.start();
-			});
+			$( ".startScreen" ).remove();
 		}else{
 			$( ".startScreen" ).animate({
 			  left:-$(this).width()
@@ -166,7 +174,7 @@ $(document).ready(function(){
 			});
 		}
 
-		loopSound(bg_sound);
+		//loopSound(bg_sound);
 		//buildItem();
 
 		//gameMover = setInterval(gameRun, config.intervalSpeed);
@@ -295,6 +303,7 @@ $(document).ready(function(){
 		  autostart: false,
 		  label: "",
 		  onComplete  : function () {
+		  	$( "#backBtn" ).hide();
 		  	wrongSound.play();
 		  	endGame();		  	
 		  }
@@ -310,9 +319,11 @@ $(document).ready(function(){
 		//$(".ans").removeClass("disableLink");
 		if(selectedAnswer == _qs[qCounter][4])	{			
 	    	rightSound.play();
+	    	selectedBox.addClass("disableLink");
 	    	$("#"+_selecId).addClass("correct");
 	    	$("#counter").stop();
 	    	$("#counter").hide();
+	    	$( "#backBtn" ).hide();
 	    	score += selectedScore;	  	
 		   // }
 	    	setTimeout(function(){
@@ -328,13 +339,45 @@ $(document).ready(function(){
 	    	}, 1500);
 	    }else{
 	    	wrongSound.play();
+	    	$( "#backBtn" ).hide();
 	    	$("#"+_selecId).addClass("wrong");
 	    	setTimeout(function(){endGame()}, 1500);			
 	    }
 	    
 	}
 
-	
+	$("#howToPlay").on("click",function(){
+		$("#hwToPlay").show();
+		$("#closeHwToPlay2").hide();
+		$("#closeHwToPlay").show();
+		return false;
+	});
+	$("#closeHwToPlay").on("click",function(){
+		$("#hwToPlay").hide();
+		startGame();
+		return false;
+	});
+	$("#closeHwToPlay2").on("click",function(){
+		$("#hwToPlay").hide();
+		$(this).hide();
+		$("#closeHwToPlay").show();
+		return false;
+	});
+	$(document).on("click","#helpBtn", function(){
+		$("#hwToPlay").show();
+		$("#closeHwToPlay").hide();
+		$("#closeHwToPlay2").show();
+		return false;
+	});
+
+	$("#help").on("click", function(){
+
+		$("#closeHwToPlay2").hide();
+		$("#closeHwToPlay").show();
+		return false;
+	});
+
+
 	$(".pause, .continue").on("click",function(){		
 		pauseGame();
 		return false;
@@ -345,7 +388,8 @@ $(document).ready(function(){
 		$(this).addClass("selected");		
 		selectedAnswer = parseInt($(this).attr("code"));	
 		$("#qArea").scrollTop(0);
-		$(".finalAnswerArea").fadeIn("fast");
+		//$(".finalAnswerArea").fadeIn("fast");
+		checkAnswer();
 		$("#qArea").removeClass("scroll");
 		return false;
 	});
@@ -381,16 +425,18 @@ $(document).ready(function(){
 		$(".grid .row").each(function(n){
 			$(this).fadeOut((n * 50) + 50);
 		});
+		$("#backBtn").show();
 		var _this = $(this);
 		setTimeout(function(){
 			$("#qArea").fadeIn(500);
 			$(".grid").hide();
 			$("#counter").show();
-			_this.addClass("disableLink");
+			//_this.addClass("disableLink");
+			selectedBox = _this;
 			counter.resetart();
 		},1500);
 
-		selectedScore = parseInt($(this).find("span").html());
+		selectedScore = parseInt($(this).attr("score"));
 
 		buildItem($(this).attr("id"));
 		return false;
