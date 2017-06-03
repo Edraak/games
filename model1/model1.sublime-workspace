@@ -1,0 +1,774 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"p",
+				"pull-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"btn-",
+				"btn-danger"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"select",
+				"selectedBox"
+			],
+			[
+				"is",
+				"is_mute"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"end",
+				"endGame"
+			],
+			[
+				"_",
+				"_qs"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"play",
+				"playSound"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"en",
+				"endGame"
+			],
+			[
+				"buil",
+				"buildItem"
+			],
+			[
+				"q",
+				"qCounter"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"ran",
+				"randomExplrs"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"stop",
+				"stopSounds"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"ti",
+				"time"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"font-",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rami/Documents/Works/Edrak/shahed/parts/p0.1.svg",
+		"/Users/rami/Sites/mecal/old/admin/language/english/design/banner.php",
+		"/Users/rami/Sites/mecal/old/admin/controller/module/ecslideshow.php",
+		"/Users/rami/Sites/mecal/old/system/logs/error.log",
+		"/Users/rami/Sites/mecal/old/catalog/language/english/rgen/rgen.php",
+		"/Users/rami/Sites/mecal/old/catalog/language/arabic/rgen/rgen.php",
+		"/Users/rami/Sites/mecal/old/system/modification/catalog/controller/common/header.php",
+		"/Users/rami/Sites/mecal/old/admin/view/template/common/header.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/common/header.tpl",
+		"/Users/rami/Sites/mecal/old/config.php",
+		"/Users/rami/Sites/mecal/old/vqmod/vqcache/vq2-admin_view_template_catalog_category_form.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/common/language.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/common/currency.tpl",
+		"/Users/rami/Sites/mecal/old/rgen/catalog/template/common/topbar1.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/model/rgen/rgen.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/rgen/settings.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/rgen/factory.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/rgen/basicbanners.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/rgen/assets.php",
+		"/Users/rami/Sites/mecal/old/catalog/language/arabic/common/header.php",
+		"/Users/rami/Sites/mecal/old/catalog/language/arabic/common/footer.php",
+		"/Users/rami/Sites/watad/index.html",
+		"/Users/rami/Documents/old-desktops/desktop/watad20172-20-176-24 PM.sql",
+		"/Users/rami/Sites/vcs_wp/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-tag-cloud.php",
+		"/Users/rami/Sites/vcs_wp/wp-content/plugins/wpml-string-translation/inc/functions.php",
+		"/Users/rami/Sites/otleh/css/full.css",
+		"/Users/rami/Sites/otleh/lib/FullWidthTabs/css/component.css",
+		"/Users/rami/Sites/otleh/lib/FullWidthTabs/js/cbpFWTabs.js",
+		"/Users/rami/Sites/otleh/lib/FullWidthTabs/index.html",
+		"/Users/rami/Sites/otleh/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+		"/Users/rami/Sites/otleh/lib/FullWidthTabs/css/demo.css",
+		"/Users/rami/Sites/otleh/bower_components/components-font-awesome/css/font-awesome.css",
+		"/Users/rami/Sites/otleh/bower_components/bootstrap/less/panels.less",
+		"/Users/rami/Documents/Films/lupin3_3.srt",
+		"/Users/rami/Documents/Films/lupin3_2.srt",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/default/template/information/contact.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/stylesheet/custom.css",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/default/template/error/not_found.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/default/template/common/success.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/common/success.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/success.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/failure.php",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/catalog/controller/payment/payfort_fort.php",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/error/not_found.tpl",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/catalog/language/english/payment/payfort_fort.php",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/catalog/model/payment/payfort_fort.php",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/catalog/controller/payment/payfort_fort_sadad.php",
+		"/Users/rami/Sites/edraak/game4/index.html",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/admin/view/template/payment/payfort_fort.tpl",
+		"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload/catalog/view/theme/default/template/payment/payfort_fort.tpl",
+		"/Users/rami/Sites/edraak/game2/css/styles.css",
+		"/Users/rami/Sites/edraak/game4/css/styles.css",
+		"/Users/rami/Sites/edraak/game2/index.html",
+		"/Users/rami/Sites/edraak/game3/css/styles.css",
+		"/Users/rami/Sites/edraak/game4/js/scripts.js",
+		"/Users/rami/Sites/edraak/game2/js/scripts.js",
+		"/Users/rami/Sites/edraak/game3/js/scripts.js",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/information/contact.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/controller/information/contact.php",
+		"/Users/rami/Sites/edraak/game3/index.html",
+		"/Users/rami/Sites/edraak/index.html",
+		"/Users/rami/Documents/old-desktops/desktop/phpinfo.php",
+		"/Users/rami/Sites/mecal/old/admin/config.php",
+		"/Users/rami/Sites/mecal/old/rgen/catalog/template/product/product_buyinginfo.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/controller/product/product.php",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/checkout/cart.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/checkout/checkout.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/checkout/confirm.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/language/english/checkout/cart.php",
+		"/Users/rami/Sites/mecal/old/catalog/language/english/checkout/checkout.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/cart.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/confirm.php",
+		"/Users/rami/Sites/mecal/old/admin/language/english/english.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/api/shipping.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/shipping_address.php",
+		"/Users/rami/Sites/mecal/old/catalog/controller/checkout/shipping.php",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/account/wishlist.tpl",
+		"/Users/rami/Documents/Works/mecal/backup/fromsite/mecalmen_db_2016-07-18_20-47-14_backup.sql",
+		"/Users/rami/Sites/edraak/game1/css/styles.css",
+		"/Users/rami/Documents/Works/mecal/backup/backup-22-6-2016/index.php",
+		"/Users/rami/Sites/mecal/old/admin/controller/setting/setting.php",
+		"/Users/rami/Sites/mecal/old/admin/language/english/localisation/location.php",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/default/template/product/product.tpl",
+		"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template/product/product.tpl",
+		"/Users/rami/Sites/mecal/old/admin/view/template/setting/setting.tpl",
+		"/Users/rami/Sites/mecal/old/admin/controller/marketing/affiliate.php",
+		"/Users/rami/Sites/mecal/rgen/lib/ui-bootstrap/template/pagination/pagination.html",
+		"/Users/rami/Sites/mecal/system/library/pagination.php",
+		"/Users/rami/Sites/mecal/admin/controller/sale/order.php",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/stylesheet/stylesheet.css",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/js/responsive.js",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/js/common.js",
+		"/Users/rami/Sites/mecal/catalog/view/javascript/common.js",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/template/information/contact.tpl",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/template/common/footer.tpl",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/template/common/header.tpl",
+		"/Users/rami/Sites/mecal/rgen/catalog/template/product/prd_block2.tpl",
+		"/Users/rami/Sites/mecal/admin/view/template/common/header.tpl",
+		"/Users/rami/Sites/edraak/game3/bower_components/countdown360/dist/jquery.countdown360.js",
+		"/Users/rami/Sites/AVXAV/wp-content/themes/theluxury/header-title.php",
+		"/Users/rami/Sites/mecal/admin/controller/module/featured.php",
+		"/Users/rami/Sites/mecal/rgen/catalog/template/modules/oc_common_modules_bfsl.tpl",
+		"/Users/rami/Sites/mecal/catalog/view/theme/rgen-cupid/template/module/featured.tpl",
+		"/Users/rami/Sites/mecal/catalog/controller/rgen/menu.php",
+		"/Users/rami/Sites/edraak/game1/js/scripts.js",
+		"/Users/rami/Sites/mecal/rgen/catalog/template/product/prd_block1.tpl",
+		"/Users/rami/Sites/mecal/rgen/catalog/template/modules/menu/small_prd_block2.tpl",
+		"/Users/rami/Sites/mecal/catalog/language/english/common/footer.php",
+		"/Users/rami/Sites/edraak/game1/index.html",
+		"/Users/rami/Sites/edraak/game2/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css",
+		"/Users/rami/Sites/edrak/game1/js/scripts.js",
+		"/Users/rami/Sites/edrak/index.html",
+		"/Users/rami/Documents/Works/Hisham/avxav/db/avxav3-26-1611-42 PM.sql",
+		"/Users/rami/Sites/edrak/game1/index.html",
+		"/Users/rami/Sites/edrak/game1/iframe.html",
+		"/Users/rami/Sites/AVXAV/uc.html",
+		"/Users/rami/Sites/edrak/game1/css/styles.css",
+		"/Users/rami/Sites/edrak/game1/bower_components/countdown360/dist/jquery.countdown360.js",
+		"/Users/rami/Sites/edrak/game1/bower_components/Preloader/Preloader.js",
+		"/Users/rami/Sites/edrak/game1/bower_components/preloadjs-0.6.2.min/index.js",
+		"/Users/rami/Sites/edrak/game1/js/files.json",
+		"/Users/rami/Sites/edrak/game1/bower_components/jquery.html5loader/src/files.json",
+		"/Users/rami/Sites/edrak/game1/bower_components/countdown360/countdown360.jquery.json",
+		"/Users/rami/Documents/Works/Hisham/avxav/template-custom/p5.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/,*.tpl",
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/,*.tpl",
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/,*.tpl",
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/,*.*",
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/,*.tpl",
+			"/Users/rami/Sites/mecal/old/,*.php",
+			"/Users/rami/Sites/mecal/old/،*.php",
+			"/Users/rami/Sites/mecal/old/",
+			"/Users/rami/Sites/mecal/old/catalog/language/english",
+			"/Users/rami/Sites/mecal/catalog/language/english/,*.*",
+			"/Users/rami/Sites/mecal/catalog/language/english/,*.php",
+			"/Users/rami/Sites/mecal/,*.*",
+			"/Users/rami/Sites/mecal/,*.php",
+			"/Users/rami/Sites/mecal/,*.tpl",
+			"/Users/rami/Sites/mecal/,*.php",
+			"/Users/rami/Sites/mecal/,*.*",
+			"/Users/rami/Sites/mecal/,*.tpl",
+			"/Users/rami/Sites/mecal/,*.*",
+			"/Users/rami/Sites/mecal/,*.php",
+			"/Users/rami/Sites/vcs_wp/,*.php",
+			"/Users/rami/Sites/vcs_wp/wp-content/,*.php",
+			"/Users/rami/Sites/vcs_wp/wp-content?*.php",
+			"/Users/rami/Sites/vcs_wp/wp-content",
+			"/Users/rami/Sites/ammantoys/wp-content/,*.php",
+			"/Users/rami/Sites/ammantoys/wp-content",
+			"/Users/rami/Sites/mecal/old/",
+			"/Users/rami/Documents/old-desktops/desktop/opencart2.0-payfort-master/upload",
+			"/Users/rami/Sites/mecal/old/",
+			"/Users/rami/Sites/mecal/old/catalog/view/theme/",
+			"/Users/rami/Sites/mecal/old/catalog/view/theme/rgen-cupid/template",
+			"/Users/rami/Sites/mecal",
+			"/Users/rami/Sites/AVXAV",
+			"/Users/rami/Sites/mecal",
+			"numCounter"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shaqdeeh.com",
+			"shaqdee.com",
+			"id=\"currency\"",
+			"banner",
+			"entry_name",
+			"Banner Name",
+			"$banners",
+			"text_select_banner",
+			"select a banner",
+			"entry_banner",
+			"E25203",
+			"get('text_register')",
+			"$data['text_account']",
+			"$data['currency']",
+			"data['currency']",
+			"['currency']",
+			"'currency'",
+			"DISTINGUISH_YOUR_GIFT",
+			"fa fa-user",
+			"<a>",
+			"fa fa-user",
+			"only screen and (max-width: 979px) and (min-width: 200px)",
+			"979",
+			"ltr",
+			"id=\"language\"",
+			"$data['text_transaction']",
+			"text_transaction",
+			"$text_transaction",
+			"$currency =",
+			"$currency",
+			"langua",
+			"language",
+			"text_home",
+			"text_powered",
+			"langua",
+			"text_powered",
+			"DISTINGUISH YOURSELF",
+			".top-links a",
+			".slogan-left, .slogan-right",
+			"'options'",
+			"edit",
+			"options",
+			"cards.png",
+			"crads.png",
+			"stylesheet.css",
+			"custom",
+			".css",
+			"custom.css",
+			"OpenCartArab",
+			"watad.me",
+			"checkout_icon",
+			"DISTINGUISH YOURSELF",
+			"<div",
+			"A cloud of your most used tags",
+			"tagcloud",
+			"tag cloud",
+			"<h1",
+			"</h1",
+			"<h1",
+			"</h1",
+			"<h1",
+			"</h1",
+			"<h1",
+			"showlogin",
+			"h1",
+			".trip input[type=checkbox], .trip input[type=radio]",
+			"max-width: 700",
+			".tabs nav {",
+			"nav {",
+			"nav{",
+			".tabs nav",
+			"footer",
+			".tabs nav a",
+			"container",
+			"chil",
+			"kids",
+			"infants",
+			"lib",
+			"remove",
+			"search no",
+			".btn, .btn-group, .button",
+			".btn, .btn-group, .button {",
+			"remove",
+			"pick",
+			"datepicker",
+			"mm/dd/yy",
+			" Search Now",
+			"add",
+			"removeFlight",
+			"#tabs .content",
+			"lib",
+			".age1",
+			".age1, .age2, .age3, .age4",
+			".age1, .age2, .age3, .age4, .agesLabel",
+			"id=\"\"",
+			".tabs nav ul li",
+			"date_to",
+			"date_to_field",
+			"date_from",
+			".nav>li>a:hover",
+			".nav>li>a:focus, .nav>li>a:hover",
+			"#container",
+			"hasDatepi",
+			"Room #",
+			"removeV",
+			"roomGroupCopy",
+			"room-group",
+			"hasPick",
+			"flightForm",
+			"hotelForm",
+			"add ",
+			"remove",
+			"age",
+			"selector age",
+			"value=\"1\">00",
+			"datePlaceBlockHolder",
+			"padding-l-",
+			"padding-l",
+			"datePlace",
+			"radiu",
+			"radiua",
+			"selector",
+			"button",
+			"relativ",
+			"relati",
+			"$",
+			"label",
+			"tjq"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"shaqdeeh.com/a/youth",
+			"<h3",
+			"</h3",
+			"<h3",
+			"</h3",
+			"<h3",
+			"</h3",
+			"<h3",
+			"h3",
+			"",
+			"selector c_age age",
+			"value=\"0\">00",
+			"$j",
+			"$",
+			"#container",
+			"33.333333%",
+			"_id",
+			"q",
+			"weight_class_id",
+			"/Users/rami/Sites/mecal/old",
+			"http://localhost/mecal/old",
+			"http://localhost/mecal/old/",
+			"ومن خلال استخدام الفأرة",
+			"",
+			"\"#\" ",
+			"#qArea",
+			"_qs",
+			"qCounter",
+			"home4/proavgro",
+			"avxav.com",
+			"مناسب",
+			"مكان",
+			"_speed",
+			"_intervalSpeed",
+			"numCounter",
+			",0,120,'$$$$']",
+			",0,120,'$$$$'],",
+			",1,120,'$$$$'],"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "model1.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

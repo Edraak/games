@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200, 300);
+
+
+@font-face {
+    font-family: 'DroidArabicNaskhBold';
+        src: url('fonts/DroidArabicNaskhBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'DroidArabicNaskhRegular';
+        src: url('fonts/DroidArabicNaskhRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+        src: url('fonts/DroidArabicNaskhBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+        src: url('fonts/DroidArabicNaskhRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+*{
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+	  -khtml-user-select: none;    /* Konqueror */
+	  -moz-user-select: none;      /* Firefox */
+	  -ms-user-select: none;       /* IE/Edge */
+	  user-select: none;           /* non-prefixed version, currently
+	                                  not supported by any browser */
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	margin:0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'DroidArabicNaskhRegular', "Adobe Arabic";
+	background:#fff;
+}
+
+.modelHolder{
+	position:relative;
+	width:640px;
+	height:480px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+.modelHolder svg{
+	position: absolute;
+    width: 640px;
+    height: 480px;
+}
+
+.g-block{
+     -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#info-window{
+	position:absolute;
+	width:100%;
+	height:90px;
+	background:rgba(0,0,0,0.6);
+	bottom:0;
+	left:0;
+	z-index:1000;
+	text-align:center;
+	padding:20px;
+	color:#fff;
+	direction:rtl;
+     -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#info-window b{
+	color:yellow;
+}
+
+#blocksContent{
+	display:none;
+}
