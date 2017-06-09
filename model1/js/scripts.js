@@ -59,13 +59,13 @@ $(document).ready(function(){
 	
 	$(".g-block").on("mouseover",function(){
 		var _id = $(this).attr("id");
-		if( _id == "L62" || _id == "L63" || _id == "L52" || _id == "L53" || _id == "L43" || _id == "L54" || _id == "L44"){
+		/*if( _id == "L62" || _id == "L63" || _id == "L52" || _id == "L53" || _id == "L43" || _id == "L54" || _id == "L44"){
 			$("#info-window").css("top",0);
 			$("#info-window").css("bottom","auto");
 		}else{
 			$("#info-window").css("bottom",0);
 			$("#info-window").css("top","auto");
-		}
+		}*/
 		$("g.g-block").show();
 		var block_id = $(this).attr("id");
 		$(".g-block").css("opacity",0.15);

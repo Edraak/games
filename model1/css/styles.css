@@ -66,6 +66,7 @@ body {
 	position: absolute;
     width: 640px;
     height: 480px;
+    padding-top: 70px;
 }
 
 .g-block{
@@ -81,13 +82,13 @@ body {
 #info-window{
 	position:absolute;
 	width:100%;
-	height:90px;
+	height:70px;
 	background:rgba(0,0,0,0.6);
-	bottom:0;
+	top:0;
 	left:0;
 	z-index:1000;
 	text-align:center;
-	padding:20px;
+	padding:8px;
 	color:#fff;
 	direction:rtl;
      -webkit-transition: opacity 0.5s ease-in-out;
