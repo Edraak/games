@@ -3,12 +3,13 @@ $(document).ready(function(){
 
 	var blocksArr = new Array();
 
-	blocksArr["dot1"] = ["blk1","cont1"];
-	blocksArr["dot2"] = ["blk2","cont2"];
-	blocksArr["dot3"] = ["blk3","cont3"];
+	blocksArr["dot1"] = ["blk1","cont1","anim1"];
+	blocksArr["dot2"] = ["blk2","cont2","anim2"];
+	blocksArr["dot3"] = ["blk3","cont3","anim3"];
 
 	//$(".content").hide();
 	$(".content").css("opacity",0);
+	$(".anim").hide();
 
 	// Tooltip only Text
         $('.tip').hover(function(){
@@ -38,9 +39,11 @@ $(document).ready(function(){
       $(".tip").on("click", function(){
       		$(".block").css("opacity",0.3);
       		$(".content").css("opacity",0);
+      		$(".anim").hide();
       		$(".note").css("opacity",0);
             $("#" + blocksArr[$(this).attr("id")][0]).css("opacity",1);
             $("." + blocksArr[$(this).attr("id")][1]).css("opacity",1);
+            $("." + blocksArr[$(this).attr("id")][2]).show();
             return false;
       });
 });
